@@ -10,7 +10,6 @@ import NotificationList from './chapter_06/NotificationList';
 
 
 //React Ver. 18이므로 코드상에 이상이 있을 수 있음
-//11.13 추가
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
