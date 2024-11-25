@@ -18,7 +18,6 @@ Hook
     → UseState()
     함수 컴포넌트에서 state를 사용하기 위해서 사용
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc77f7a7-316f-4672-a0a1-52bd23fbd00e/43fa8546-970e-4076-a40a-6b5726b0a389/image.png)
     
     이 경우, 버튼을 눌러도 Count값이 증가하나, 페이지가 재랜더링 되지 않기 때문에 UseState()를 사용해 렌더링을 다시 해야함
     
@@ -26,7 +25,6 @@ Hook
     
     const [변수명, set함수명] = useState(초기값);
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fc77f7a7-316f-4672-a0a1-52bd23fbd00e/41873659-a163-4069-93e8-a18e025980d0/image.png)
     
     useState를 사용해 설정한 모습
     
