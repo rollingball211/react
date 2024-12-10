@@ -16,7 +16,7 @@ function Accomodate(props) {
     useEffect(() => {
         setIsFull(count >= MAX_CAPACITY);
         console.log (`Current count value : ${count}`);
-    }, {count});
+    }, [count]);
 
     return (
         <div style = {{ padding : 16}}>
@@ -27,7 +27,7 @@ function Accomodate(props) {
             </button>
             <button onClick = {decreaseCount}> 퇴장 </button>
 
-            {isFull && <p style = { {color : "red" }}> 정원이 초과되었습니다.</p>}
+            {isFull && <p style={{color : "red" }}> 정원이 초과되었습니다.</p>}
         </div>
     );
 }

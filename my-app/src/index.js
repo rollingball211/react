@@ -7,8 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // import Clock from './chapter_04/Clock';
 // import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
-import Accomodate from './chapter_07/Accomodate';
-
+import Accomodate from './chapter_07/accomodate';
 
 //React Ver. 18이므로 코드상에 이상이 있을 수 있음
 
