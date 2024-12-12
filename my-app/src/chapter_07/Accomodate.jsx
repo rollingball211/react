@@ -42,7 +42,7 @@ export default Accomodate;
 isFull이라는 state에 저장함.
 
 */
-
+    
 
 /*
 감기걸려서 11일은 쉼..
