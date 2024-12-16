@@ -7,17 +7,17 @@ import reportWebVitals from './reportWebVitals';
 // import Clock from './chapter_04/Clock';
 // import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
-import Accomodate from './chapter_07/accomodate';
+import Accomodate from './chapter_07/Accomodate';
 //import ConfirmButton from './chpater_08/ConfirmButton';
 //import ConfirmButton2 from './chpater_08/ConfirmButton_2';
-import ConfirmButtonByFunctionComp from './chpater_08/ConfirmButtonByFunctionComp';
-
+//import ConfirmButtonByFunctionComp from './chpater_08/ConfirmButtonByFunctionComp';
+import LandingPage from './chapter_09/LandingPage';
 //React Ver. 18이므로 코드상에 이상이 있을 수 있음
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ConfirmButtonByFunctionComp />
+    <LandingPage />
   </React.StrictMode>
 );
 
