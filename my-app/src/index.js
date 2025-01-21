@@ -11,13 +11,14 @@ import Accomodate from './chapter_07/Accomodate';
 //import ConfirmButton from './chpater_08/ConfirmButton';
 //import ConfirmButton2 from './chpater_08/ConfirmButton_2';
 //import ConfirmButtonByFunctionComp from './chpater_08/ConfirmButtonByFunctionComp';
-import LandingPage from './chapter_09/LandingPage';
+//import LandingPage from './chapter_09/LandingPage';
+import SignUp from './chapter_11/SignUp';
 //React Ver. 18이므로 코드상에 이상이 있을 수 있음
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <SignUp />
   </React.StrictMode>
 );
 
